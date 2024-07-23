@@ -1,0 +1,10 @@
+# > isolenta.toml
+
+serve-at = 'localhost:9478'
+
+[[user]]
+id = '1234'
+unsafe-secret = 'test-secret'
+domain = 'localhost:8080'
+unsafe-password = 'test-password'
+
